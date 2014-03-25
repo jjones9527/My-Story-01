@@ -21,6 +21,16 @@
 		3F67D54618E10CA8001AEF91 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F67D52818E10CA8001AEF91 /* UIKit.framework */; };
 		3F67D54E18E10CA8001AEF91 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3F67D54C18E10CA8001AEF91 /* InfoPlist.strings */; };
 		3F67D55018E10CA8001AEF91 /* My_Story_01Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F67D54F18E10CA8001AEF91 /* My_Story_01Tests.m */; };
+		3F67D55B18E10D45001AEF91 /* myPos.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F67D55A18E10D45001AEF91 /* myPos.m */; };
+		3F67D55D18E10DF4001AEF91 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F67D55C18E10DF4001AEF91 /* CoreLocation.framework */; };
+		3F67D55F18E10DFD001AEF91 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F67D55E18E10DFD001AEF91 /* MapKit.framework */; };
+		3F67D56718E10ED6001AEF91 /* iPad 72.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F67D56018E10ED6001AEF91 /* iPad 72.png */; };
+		3F67D56818E10ED6001AEF91 /* iPhone 57.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F67D56118E10ED6001AEF91 /* iPhone 57.png */; };
+		3F67D56918E10ED6001AEF91 /* iPhone4 114.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F67D56218E10ED6001AEF91 /* iPhone4 114.png */; };
+		3F67D56A18E10ED6001AEF91 /* MKAnnotationView.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 3F67D56318E10ED6001AEF91 /* MKAnnotationView.rtf */; };
+		3F67D56B18E10ED6001AEF91 /* splash Big.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F67D56418E10ED6001AEF91 /* splash Big.png */; };
+		3F67D56C18E10ED6001AEF91 /* splash.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F67D56518E10ED6001AEF91 /* splash.png */; };
+		3F67D56D18E10ED6001AEF91 /* viewDidLoad coords.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 3F67D56618E10ED6001AEF91 /* viewDidLoad coords.rtf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +63,17 @@
 		3F67D54B18E10CA8001AEF91 /* My Story 01Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "My Story 01Tests-Info.plist"; sourceTree = "<group>"; };
 		3F67D54D18E10CA8001AEF91 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		3F67D54F18E10CA8001AEF91 /* My_Story_01Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = My_Story_01Tests.m; sourceTree = "<group>"; };
+		3F67D55918E10D45001AEF91 /* myPos.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = myPos.h; sourceTree = "<group>"; };
+		3F67D55A18E10D45001AEF91 /* myPos.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = myPos.m; sourceTree = "<group>"; };
+		3F67D55C18E10DF4001AEF91 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		3F67D55E18E10DFD001AEF91 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		3F67D56018E10ED6001AEF91 /* iPad 72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "iPad 72.png"; path = "../../../../../Downloads/09_mystory_01 files/iPad 72.png"; sourceTree = "<group>"; };
+		3F67D56118E10ED6001AEF91 /* iPhone 57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "iPhone 57.png"; path = "../../../../../Downloads/09_mystory_01 files/iPhone 57.png"; sourceTree = "<group>"; };
+		3F67D56218E10ED6001AEF91 /* iPhone4 114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "iPhone4 114.png"; path = "../../../../../Downloads/09_mystory_01 files/iPhone4 114.png"; sourceTree = "<group>"; };
+		3F67D56318E10ED6001AEF91 /* MKAnnotationView.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; name = MKAnnotationView.rtf; path = "../../../../../Downloads/09_mystory_01 files/MKAnnotationView.rtf"; sourceTree = "<group>"; };
+		3F67D56418E10ED6001AEF91 /* splash Big.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "splash Big.png"; path = "../../../../../Downloads/09_mystory_01 files/splash Big.png"; sourceTree = "<group>"; };
+		3F67D56518E10ED6001AEF91 /* splash.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = splash.png; path = "../../../../../Downloads/09_mystory_01 files/splash.png"; sourceTree = "<group>"; };
+		3F67D56618E10ED6001AEF91 /* viewDidLoad coords.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; name = "viewDidLoad coords.rtf"; path = "../../../../../Downloads/09_mystory_01 files/viewDidLoad coords.rtf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +81,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F67D55F18E10DFD001AEF91 /* MapKit.framework in Frameworks */,
+				3F67D55D18E10DF4001AEF91 /* CoreLocation.framework in Frameworks */,
 				3F67D52718E10CA8001AEF91 /* CoreGraphics.framework in Frameworks */,
 				3F67D52918E10CA8001AEF91 /* UIKit.framework in Frameworks */,
 				3F67D52518E10CA8001AEF91 /* Foundation.framework in Frameworks */,
@@ -101,6 +124,8 @@
 		3F67D52318E10CA8001AEF91 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				3F67D55E18E10DFD001AEF91 /* MapKit.framework */,
+				3F67D55C18E10DF4001AEF91 /* CoreLocation.framework */,
 				3F67D52418E10CA8001AEF91 /* Foundation.framework */,
 				3F67D52618E10CA8001AEF91 /* CoreGraphics.framework */,
 				3F67D52818E10CA8001AEF91 /* UIKit.framework */,
@@ -117,6 +142,8 @@
 				3F67D53618E10CA8001AEF91 /* Main.storyboard */,
 				3F67D53918E10CA8001AEF91 /* ViewController.h */,
 				3F67D53A18E10CA8001AEF91 /* ViewController.m */,
+				3F67D55918E10D45001AEF91 /* myPos.h */,
+				3F67D55A18E10D45001AEF91 /* myPos.m */,
 				3F67D53C18E10CA8001AEF91 /* Images.xcassets */,
 				3F67D52B18E10CA8001AEF91 /* Supporting Files */,
 			);
@@ -126,6 +153,13 @@
 		3F67D52B18E10CA8001AEF91 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				3F67D56018E10ED6001AEF91 /* iPad 72.png */,
+				3F67D56118E10ED6001AEF91 /* iPhone 57.png */,
+				3F67D56218E10ED6001AEF91 /* iPhone4 114.png */,
+				3F67D56318E10ED6001AEF91 /* MKAnnotationView.rtf */,
+				3F67D56418E10ED6001AEF91 /* splash Big.png */,
+				3F67D56518E10ED6001AEF91 /* splash.png */,
+				3F67D56618E10ED6001AEF91 /* viewDidLoad coords.rtf */,
 				3F67D52C18E10CA8001AEF91 /* My Story 01-Info.plist */,
 				3F67D52D18E10CA8001AEF91 /* InfoPlist.strings */,
 				3F67D53018E10CA8001AEF91 /* main.m */,
@@ -228,8 +262,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F67D56818E10ED6001AEF91 /* iPhone 57.png in Resources */,
 				3F67D53D18E10CA8001AEF91 /* Images.xcassets in Resources */,
+				3F67D56D18E10ED6001AEF91 /* viewDidLoad coords.rtf in Resources */,
+				3F67D56718E10ED6001AEF91 /* iPad 72.png in Resources */,
+				3F67D56A18E10ED6001AEF91 /* MKAnnotationView.rtf in Resources */,
+				3F67D56918E10ED6001AEF91 /* iPhone4 114.png in Resources */,
 				3F67D52F18E10CA8001AEF91 /* InfoPlist.strings in Resources */,
+				3F67D56B18E10ED6001AEF91 /* splash Big.png in Resources */,
+				3F67D56C18E10ED6001AEF91 /* splash.png in Resources */,
 				3F67D53818E10CA8001AEF91 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -251,6 +292,7 @@
 			files = (
 				3F67D53B18E10CA8001AEF91 /* ViewController.m in Sources */,
 				3F67D53518E10CA8001AEF91 /* AppDelegate.m in Sources */,
+				3F67D55B18E10D45001AEF91 /* myPos.m in Sources */,
 				3F67D53118E10CA8001AEF91 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
